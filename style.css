@@ -80,7 +80,7 @@ Main
     color: #FFFFFF;
 }
 
-.hero_text img {
+.hero_image img {
     width: 250px;
     margin-top: 200px;
 }
@@ -139,7 +139,7 @@ Main
 /* banner */
 .banner {
     background-image: url("./img/it-takes-two-hero-banner-desktop.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -159,4 +159,12 @@ Main
 .new_games p {
     margin-top: 1rem;
     margin-bottom: 2rem;
+}
+
+/* ps4 */
+.ps4 p {
+    color: grey;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 0;
 }
