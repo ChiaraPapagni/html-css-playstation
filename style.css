@@ -16,6 +16,10 @@
     background-color: var(--playstation-orange);
 }
 
+.bg_blue {
+    background-color: var(--playstation-blue);
+}
+
 body {
     font-family: Arial,
         sans-serif;
@@ -75,4 +79,51 @@ Main
 
 .hero_text .btn {
     color: #FFFFFF;
+}
+
+/* game_cards */
+.game_cards img {
+    width: 100%;
+    border-radius: 20px;
+    padding: 0.15rem;
+    margin-bottom: 12px;
+}
+
+.game_cards .active_game_cards img {
+    border: 2px solid var(--playstation-blue);
+}
+
+/* console */
+.console p {
+    color: grey;
+    font-size: 1.1rem;
+    margin-bottom: 0;
+}
+
+.console .text_blue {
+    color: var(--playstation-blue);
+    font-size: 0.8rem;
+}
+
+.console .btn {
+    color: #FFFFFF;
+}
+
+.console .accessories img {
+    width: 75%;
+    cursor: pointer;
+}
+
+.console .active_console .accessory {
+    filter: opacity(1);
+    border-bottom: 2px solid var(--playstation-blue);
+}
+
+.console .accessory {
+    filter: opacity(0.5);
+    min-height: 225px;
+}
+
+.console .accessory:hover {
+    filter: opacity(1);
 }
