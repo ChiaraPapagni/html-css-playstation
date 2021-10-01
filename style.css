@@ -12,6 +12,19 @@
     background-color: var(--playstation-dark-grey);
 }
 
+.bg_orange {
+    background-color: var(--playstation-orange);
+}
+
+body {
+    font-family: Arial,
+        sans-serif;
+}
+
+.btn {
+    border-radius: 50px;
+}
+
 /************************
 Header
 ************************/
@@ -25,6 +38,10 @@ Header
 }
 
 /* navbar */
+nav {
+    background-color: #FFFFFF;
+}
+
 a#navbarDropdown {
     color: black;
 }
@@ -36,4 +53,26 @@ nav .bg_dark_grey {
 
 nav .search_icon {
     width: 25px;
+}
+
+/************************
+Main
+************************/
+/* hero_image */
+.hero_image img {
+    width: 100%;
+    margin-top: 96px;
+}
+
+.hero_text {
+    bottom: 0;
+    color: #FFFFFF;
+}
+
+.hero_text img {
+    width: 250px;
+}
+
+.hero_text .btn {
+    color: #FFFFFF;
 }
