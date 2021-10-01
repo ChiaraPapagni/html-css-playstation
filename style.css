@@ -35,6 +35,12 @@ body {
     border-radius: 50px;
 }
 
+.text_grey {
+    color: grey;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
 /************************
 Header
 ************************/
@@ -103,12 +109,6 @@ Main
 }
 
 /* console */
-.console p {
-    color: grey;
-    font-size: 1.1rem;
-    margin-bottom: 0;
-}
-
 .console .text_blue {
     color: var(--playstation-blue);
     font-size: 0.8rem;
@@ -162,14 +162,6 @@ Main
     margin-bottom: 2rem;
 }
 
-/* ps4 */
-.ps4 p {
-    color: grey;
-    font-size: 1.1rem;
-    font-weight: bold;
-    margin-bottom: 0;
-}
-
 /* playstation_plus */
 .playstation_plus {
     background-color: var(--playstation-grey);
@@ -186,4 +178,9 @@ Main
 
 .section_image img {
     width: 750px;
+}
+
+/* discounts */
+.discounts img {
+    width: 100%;
 }
