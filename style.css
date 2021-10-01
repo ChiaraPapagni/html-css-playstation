@@ -1,0 +1,39 @@
+:root {
+    --playstation-dark: #1F1F1F;
+    --playstation-dark-grey: #363636;
+    --playstation-light-grey: #D9DADC;
+    --playstation-light: #F5F5F5;
+    --playstation-orange: #CD3D0F;
+    --playstation-blue: #2D64E6;
+    --playstation-dark-blue: #00439C;
+}
+
+.bg_dark_grey {
+    background-color: var(--playstation-dark-grey);
+}
+
+/************************
+Header
+************************/
+/* logo_sony */
+.logo_sony {
+    background-color: #000000;
+}
+
+.logo_sony img {
+    height: 15px;
+}
+
+/* navbar */
+a#navbarDropdown {
+    color: black;
+}
+
+nav .bg_dark_grey {
+    color: #FFFFFF;
+    border-radius: 50px;
+}
+
+nav .search_icon {
+    width: 25px;
+}
