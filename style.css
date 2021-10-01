@@ -196,3 +196,15 @@ Main
 .playstation_now .btn {
     background-color: var(--playstation-light);
 }
+
+/* social */
+.social img {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+/* 
+.social .row {
+    width: 50%;
+    margin: auto;
+} */
