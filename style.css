@@ -1,6 +1,7 @@
 :root {
     --playstation-dark: #1F1F1F;
     --playstation-dark-grey: #363636;
+    --playstation-grey: #BEBCBB;
     --playstation-light-grey: #D9DADC;
     --playstation-light: #F5F5F5;
     --playstation-orange: #CD3D0F;
@@ -167,4 +168,17 @@ Main
     font-size: 1.1rem;
     font-weight: bold;
     margin-bottom: 0;
+}
+
+/* playstation_plus */
+.playstation_plus {
+    background-color: var(--playstation-grey);
+}
+
+.section_text img {
+    width: 350px;
+}
+
+.section_image img {
+    width: 750px;
 }
