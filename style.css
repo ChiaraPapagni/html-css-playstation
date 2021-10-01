@@ -8,6 +8,10 @@
     --playstation-dark-blue: #00439C;
 }
 
+.bg_dark {
+    background-color: var(--playstation-dark);
+}
+
 .bg_dark_grey {
     background-color: var(--playstation-dark-grey);
 }
@@ -23,6 +27,7 @@
 body {
     font-family: Arial,
         sans-serif;
+    overflow-x: hidden;
 }
 
 .btn {
@@ -126,4 +131,18 @@ Main
 
 .console .accessory:hover {
     filter: opacity(1);
+}
+
+/* new_games */
+.new_games {
+    color: #FFFFFF;
+}
+
+.new_games img {
+    border-radius: 20px;
+}
+
+.new_games p {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 }
