@@ -5,8 +5,9 @@
     --playstation-light-grey: #D9DADC;
     --playstation-light: #F5F5F5;
     --playstation-orange: #CD3D0F;
-    --playstation-blue: #2D64E6;
-    --playstation-dark-blue: #00439C;
+    --playstation-light-blue: #2D64E6;
+    --playstation-blue: #00439C;
+    --playstation-dark-blue: #161C3B;
 }
 
 .bg_dark {
@@ -22,7 +23,7 @@
 }
 
 .bg_blue {
-    background-color: var(--playstation-blue);
+    background-color: var(--playstation-light-blue);
 }
 
 body {
@@ -105,12 +106,12 @@ Main
 }
 
 .game_cards .active_game_cards img {
-    border: 2px solid var(--playstation-blue);
+    border: 2px solid var(--playstation-light-blue);
 }
 
 /* console */
 .console .text_blue {
-    color: var(--playstation-blue);
+    color: var(--playstation-light-blue);
     font-size: 0.8rem;
 }
 
@@ -125,7 +126,7 @@ Main
 
 .console .active_console .accessory {
     filter: opacity(1);
-    border-bottom: 2px solid var(--playstation-blue);
+    border-bottom: 2px solid var(--playstation-light-blue);
 }
 
 .console .accessory {
@@ -168,7 +169,7 @@ Main
 }
 
 .playstation_plus .btn {
-    color: var(--playstation-blue);
+    color: var(--playstation-light-blue);
     background-color: var(--playstation-light-grey);
 }
 
@@ -183,4 +184,15 @@ Main
 /* discounts */
 .discounts img {
     width: 100%;
+    margin-bottom: 2rem;
+}
+
+/* playstation_now */
+.playstation_now {
+    background-color: var(--playstation-dark-blue);
+    color: #FFFFFF;
+}
+
+.playstation_now .btn {
+    background-color: var(--playstation-light);
 }
