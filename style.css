@@ -175,6 +175,11 @@ Main
     background-color: var(--playstation-grey);
 }
 
+.playstation_plus .btn {
+    color: var(--playstation-blue);
+    background-color: var(--playstation-light-grey);
+}
+
 .section_text img {
     width: 350px;
 }
