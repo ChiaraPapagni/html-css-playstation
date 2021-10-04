@@ -199,12 +199,6 @@ Main
 
 /* social */
 .social img {
-    width: 100%;
+    width: 150px;
     margin-bottom: 2rem;
 }
-
-/* 
-.social .row {
-    width: 50%;
-    margin: auto;
-} */
