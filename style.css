@@ -59,21 +59,85 @@ nav {
     background-color: #FFFFFF;
 }
 
-a#navbarDropdown {
-    color: black;
-}
 
 nav .bg_dark_grey {
     color: #FFFFFF;
     border-radius: 50px;
 }
 
+.search_icon {
+    width: 25px;
+}
+
 .chevron_down {
     width: 10px;
 }
 
-.search_icon {
-    width: 25px;
+nav .chevron_hover {
+    display: none;
+    width: 10px;
+}
+
+a#navbarDropdown {
+    color: black;
+}
+
+a#navbarDropdown:hover {
+    color: var(--playstation-light-blue);
+}
+
+a#navbarDropdown:focus {
+    color: var(--playstation-light-blue);
+}
+
+nav ul>li:hover .chevron_down {
+    display: none;
+}
+
+nav ul>li:hover .chevron_hover {
+    display: inline-block;
+}
+
+nav .btn:hover {
+    color: #FFFFFF;
+    filter: opacity(0.9);
+}
+
+/* dropdown-menu */
+.dropdown {
+    position: static;
+}
+
+.dropdown-menu {
+    width: 100%;
+    border: none;
+    border-radius: 0;
+}
+
+.dropdown-menu[data-bs-popper] {
+    margin-top: 0;
+}
+
+.dropdown_top_menu li {
+    margin: 2rem;
+}
+
+.dropdown_top_menu li:hover {
+    box-shadow: 1px 1px 5px var(--playstation-grey);
+    border-radius: 5px;
+}
+
+.dropdown_bottom_menu {
+    width: 7px;
+    height: 7px;
+    background-color: var(--playstation-light-blue);
+    border-radius: 50%;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+    color: var(--playstation-light-blue);
+    background-color: #FFFFFF;
 }
 
 /************************
