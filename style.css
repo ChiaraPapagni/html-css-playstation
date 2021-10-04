@@ -186,11 +186,20 @@ Main
     border-radius: 20px;
     padding: 0.15rem;
     margin-bottom: 12px;
+    transition: transform .5s;
 }
+
+.game_cards img:hover {
+    /* margin-top: -15px; */
+    cursor: pointer;
+    transform: translateY(-10px);
+}
+
 
 .game_cards .active_game_cards img {
     border: 2px solid var(--playstation-light-blue);
 }
+
 
 /* console */
 .console .text_blue {
