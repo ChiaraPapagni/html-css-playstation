@@ -22,6 +22,10 @@
     background-color: var(--playstation-orange);
 }
 
+.bg_light_blue {
+    background-color: var(--playstation-light-blue);
+}
+
 .bg_blue {
     background-color: var(--playstation-blue);
 }
@@ -33,6 +37,13 @@ body {
 }
 
 .btn {
+    border-radius: 50px;
+}
+
+.button {
+    width: fit-content;
+    border: 2px solid transparent;
+    padding: 2px;
     border-radius: 50px;
 }
 
@@ -165,6 +176,10 @@ Main
     color: #FFFFFF;
 }
 
+.hero_text .button:hover {
+    border: 2px solid var(--playstation-orange);
+}
+
 /* game_cards */
 .game_cards img {
     width: 100%;
@@ -183,8 +198,14 @@ Main
     font-size: 0.8rem;
 }
 
-.console .btn {
+.console .btn,
+.ps4 .btn {
     color: #FFFFFF;
+}
+
+.console .button:hover,
+.ps4 .button:hover {
+    border: 2px solid var(--playstation-light-blue);
 }
 
 .console .accessories img {
@@ -242,6 +263,10 @@ Main
     background-color: var(--playstation-light-grey);
 }
 
+.playstation_plus .btn:hover {
+    box-shadow: 1px 1px 9px grey;
+}
+
 .section_text img {
     width: 350px;
 }
@@ -264,6 +289,10 @@ Main
 
 .playstation_now .btn {
     background-color: var(--playstation-light);
+}
+
+.playstation_now .button:hover {
+    border: 2px solid var(--playstation-light);
 }
 
 /* social */
