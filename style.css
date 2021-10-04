@@ -23,7 +23,7 @@
 }
 
 .bg_blue {
-    background-color: var(--playstation-light-blue);
+    background-color: var(--playstation-blue);
 }
 
 body {
@@ -68,7 +68,11 @@ nav .bg_dark_grey {
     border-radius: 50px;
 }
 
-nav .search_icon {
+.chevron_down {
+    width: 10px;
+}
+
+.search_icon {
     width: 25px;
 }
 
